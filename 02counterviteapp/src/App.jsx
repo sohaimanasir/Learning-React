@@ -1,7 +1,8 @@
 import { useState } from 'react'
-
-
+import './App.css';
+import Header from './Header';
 function App() {
+
 
   const [count, setCount]= useState(0);
   const Increment = () => {
@@ -19,6 +20,7 @@ function App() {
   }
   return (
     <>
+    <Header/>
   <h1>Counter App</h1>
   <h2>Value of count is {count}</h2>
 

@@ -1,27 +1,25 @@
 import { useState } from 'react'
 import './App.css'
+import Data from './Button.jsx'
 
-function App() {
-const data =[
-  {title: "Sohaima"},
-  {title: "Anusha"},
-  {title: "Mehrab"},
-  {title: "Tuba"},
-  {title: "Shameen"}
-]
+function showAlert() {
+// const data =[
+//   {title: "Sohaima" , subTitle: "hello"},
+//   {title: "Anusha" , subTitle: "hello"},
+//   {title: "Mehrab" , subTitle: "hello"},
+//   {title: "Tuba" , subTitle: "hello"},
+//   {title: "Shameen" , subTitle: "hello"}
+  
+// ]
+
+const showAlert=()=>{
+  alert 
+}
 
 
   return (
     <>
-    <div className="main">
-    {data.map((ele)=>(
-  <div className="card">
-    <h1>{ele.title}</h1>
-    {/* <h2>{subTitle}</h2>
-    <h3>{description}</h3> */}
-  </div>
-  )
-)}</div>
+  <MyButton/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 </>
 )}
 
